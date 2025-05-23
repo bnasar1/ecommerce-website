@@ -19,7 +19,7 @@ export const HeroSection = styled(Content)`
     content: "";
     position: absolute;
     inset: 0;
-    background: url("/images/hero_background.png") center/cover no-repeat;
+    background: url("/ecommerce-website/images/hero_background.png") center/cover no-repeat;
     z-index: 0;
     transform: scale(1.1);
     transition: transform 5s ease;
