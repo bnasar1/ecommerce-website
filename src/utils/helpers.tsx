@@ -6,7 +6,7 @@ const { Title, Text } = Typography;
 const { GOLD, white } = colors;
 
 export const defaultWhatsApp = {
-  phone: "+923121999696",
+  phone: "",
   message: "Hello, I am interested in your gemstones!",
 };
 
