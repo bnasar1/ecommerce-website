@@ -10,18 +10,64 @@ import AdminPanel from "../containers/Admin";
 
 const AppRoutes = () => (
   <Router basename="/ecommerce-website">
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Products />} />
-        <Route path="/shop/:productName" element={<ProductCategory />} />
-        <Route path="/shop/:productName/:gemId" element={<ProductDetails />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/admin" element={<AdminPanel />} />{" "}
-        {/* ✅ Add Admin Route */}
-      </Routes>
-    </Layout>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <Layout>
+            <Home />
+          </Layout>
+        }
+      />
+      <Route
+        path="/shop"
+        element={
+          <Layout>
+            <Products />
+          </Layout>
+        }
+      />
+      <Route
+        path="/shop/:productName"
+        element={
+          <Layout>
+            <ProductCategory />
+          </Layout>
+        }
+      />
+      <Route
+        path="/shop/:productName/:gemId"
+        element={
+          <Layout>
+            <ProductDetails />
+          </Layout>
+        }
+      />
+      <Route
+        path="/about"
+        element={
+          <Layout>
+            <AboutUs />
+          </Layout>
+        }
+      />
+      <Route
+        path="/contact"
+        element={
+          <Layout>
+            <Contact />
+          </Layout>
+        }
+      />
+      <Route
+        path="/admin"
+        element={
+          <Layout>
+            <AdminPanel />
+          </Layout>
+        }
+      />
+    </Routes>
   </Router>
 );
 
