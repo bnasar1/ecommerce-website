@@ -46,7 +46,7 @@ const HomePage = () => {
             <HeroSubtitle>
               loose gemstones of all colors and shapes.
             </HeroSubtitle>
-            <ShopNowButton href="/shop">Shop Now</ShopNowButton>
+            <ShopNowButton onClick={() => navigate("/shop")}>Shop Now</ShopNowButton>
           </HeroContent>
         </HeroSection>
       </motion.div>
