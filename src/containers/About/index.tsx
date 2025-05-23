@@ -52,7 +52,7 @@ const AboutUs = () => {
         </StyledParagraph>
 
         <CEOCard>
-          <img src="/images/avatar.png" alt="CEO" />
+          <img src="/ecommerce-website/images/avatar.png" alt="CEO" />
           <div>
             <p>
               <strong>CEO:</strong> Hamza Gull
