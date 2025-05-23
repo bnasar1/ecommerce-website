@@ -2,6 +2,10 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
+=======
+  "homepage": "https://bnasar1.github.io/ecommerce-website",
+>>>>>>> 194b4436d8ac3dfa1e5d02a46142ce498007e666
   "dependencies": {
     "@ant-design/icons": "^5.5.2",
     "@ant-design/pro-components": "^2.8.3",
@@ -61,8 +65,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+=======
+>>>>>>> 194b4436d8ac3dfa1e5d02a46142ce498007e666
   }
 }
