@@ -1,6 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-import { Form, Input, Button, Typography, message } from "antd";
+import { Form, Input, message } from "antd";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import { ContactContainer, StyledForm, SendButton, SubText } from "./styles";
