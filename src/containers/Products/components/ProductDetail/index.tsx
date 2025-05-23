@@ -43,7 +43,7 @@ const ProductDetails = () => {
   }
 
   const handleWhatsAppOrder = () => {
-    const phoneNumber = 923339109311;
+    const phoneNumber = "your number here";
     const message = `Hello, I'm interested in this gemstone: \n\nName: ${
       selectedVariation.name
     }\nColor: ${selectedVariation.color}\nWeight: ${
