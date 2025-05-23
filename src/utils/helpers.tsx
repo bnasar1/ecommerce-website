@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { colors } from "./colors";
 
 const { Title, Text } = Typography;
-const { GOLD } = colors;
+const { GOLD, white } = colors;
 
 export const defaultWhatsApp = {
   phone: "+923121999696",
@@ -46,7 +46,7 @@ export const GemInfo = styled(Text)`
   }
 
   p {
-    color: #ffffff;
+    color: ${white};
     font-size: 0.95rem;
     margin: 0;
   }
@@ -70,7 +70,7 @@ export const getWhatsAppLink = (
 export const mockData = [
   {
     name: "Tourmaline",
-    icon: "/images/Tourmaline.png",
+    icon: "/ecommerce-website/images/Tourmaline.png",
     variations: [
       {
         id: 1,
@@ -148,74 +148,75 @@ export const mockData = [
     ],
   },
   {
-    name: "Aquamarine",
-    icon: "/images/Aquamarine.jpg",
-    variations: [
-      {
-        id: 1,
-        name: "Aquamarine",
-        type: "Precious",
-        color: "Light Blue",
-        weight: "3.2 carat",
-        shape: "Emerald",
-        clarity: "VVS1",
-        price: 1200.0,
-        description: "A serene aquamarine with a calming blue hue.",
-        sold: false,
-        stock: 8,
-        certifications: "GIA Certified",
-        images: ["/images/lightBlueAqua.jpg"],
-      },
-      {
-        id: 2,
-        name: "Aquamarine",
-        type: "Precious",
-        color: "Sky Blue",
-        weight: "2.0 carat",
-        shape: "Pear",
-        clarity: "VS2",
-        price: 900.0,
-        description: "A sparkling aquamarine with a delicate color.",
-        sold: false,
-        stock: 6,
-        certifications: "IGI Certified",
-        images: ["/images/skyBlueAqua.jpg"],
-      },
-      {
-        id: 3,
-        name: "Aquamarine",
-        type: "Precious",
-        color: "Deep Blue",
-        weight: "4.0 carat",
-        shape: "Round",
-        clarity: "VS1",
-        price: 1800.0,
-        description: "A mesmerizing deep blue aquamarine.",
-        sold: false,
-        stock: 4,
-        certifications: "GIA Certified",
-        images: ["/images/deepBlueAqua.jpg"],
-      },
-      {
-        id: 4,
-        name: "Aquamarine",
-        type: "Precious",
-        color: "Pale Blue",
-        weight: "2.7 carat",
-        shape: "Oval",
-        clarity: "VVS2",
-        price: 950.0,
-        description: "A pale blue aquamarine with excellent clarity.",
-        sold: false,
-        stock: 7,
-        certifications: null,
-        images: ["/images/paleBlueAqua.jpg"],
-      },
-    ],
-  },
+  name: "Aquamarine",
+  icon: "/ecommerce-website/images/Aquamarine.jpg",
+  variations: [
+    {
+      id: 1,
+      name: "Aquamarine",
+      type: "Precious",
+      color: "Light Blue",
+      weight: "3.2 carat",
+      shape: "Emerald",
+      clarity: "VVS1",
+      price: 1200.0,
+      description: "A serene aquamarine with a calming blue hue.",
+      sold: false,
+      stock: 8,
+      certifications: "GIA Certified",
+      images: ["/ecommerce-website/images/lightBlueAqua.jpg"],
+    },
+    {
+      id: 2,
+      name: "Aquamarine",
+      type: "Precious",
+      color: "Sky Blue",
+      weight: "2.0 carat",
+      shape: "Pear",
+      clarity: "VS2",
+      price: 900.0,
+      description: "A sparkling aquamarine with a delicate color.",
+      sold: false,
+      stock: 6,
+      certifications: "IGI Certified",
+      images: ["/ecommerce-website/images/skyBlueAqua.jpg"],
+    },
+    {
+      id: 3,
+      name: "Aquamarine",
+      type: "Precious",
+      color: "Deep Blue",
+      weight: "4.0 carat",
+      shape: "Round",
+      clarity: "VS1",
+      price: 1800.0,
+      description: "A mesmerizing deep blue aquamarine.",
+      sold: false,
+      stock: 4,
+      certifications: "GIA Certified",
+      images: ["/ecommerce-website/images/deepBlueAqua.jpg"],
+    },
+    {
+      id: 4,
+      name: "Aquamarine",
+      type: "Precious",
+      color: "Pale Blue",
+      weight: "2.7 carat",
+      shape: "Oval",
+      clarity: "VVS2",
+      price: 950.0,
+      description: "A pale blue aquamarine with excellent clarity.",
+      sold: false,
+      stock: 7,
+      certifications: null,
+      images: ["/ecommerce-website/images/paleBlueAqua.jpg"],
+    },
+  ],
+}
+
   {
     name: "Kunzite",
-    icon: "/images/Kunzite.jpg",
+    icon: "/ecommerce-website/images/Kunzite.jpg",
     variations: [
       {
         id: 1,
@@ -293,7 +294,7 @@ export const mockData = [
   },
   {
     name: "Topaz",
-    icon: "/images/Topaz.jpg",
+    icon: "/ecommerce-website/images/Topaz.jpg",
     variations: [
       {
         id: 1,
