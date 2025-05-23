@@ -55,19 +55,19 @@ const AboutUs = () => {
           <img src="/ecommerce-website/images/avatar.png" alt="CEO" />
           <div>
             <p>
-              <strong>CEO:</strong> Hamza Gull
+              <strong>CEO:</strong> Name Here
             </p>
             <p>
               <strong>Contact & WhatsApp:</strong>{" "}
               <a href={whatsappURL} target="_blank" rel="noopener noreferrer">
                 <Tooltip title="Click to contact on Whatsapp">
-                  <Highlight>+66 618987192</Highlight>
+                  <Highlight>"Number Here</Highlight>
                 </Tooltip>
               </a>
             </p>
             <p>
               <strong>Email:</strong>{" "}
-              <a href="mailto:finestonespk@gmail.com">finestonespk@gmail.com</a>
+              <a href="abc@gmail.com">abc@gmail.com</a>
             </p>
             <p>
               You can also find us on <Highlight>Instagram</Highlight> &{" "}
