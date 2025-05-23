@@ -9,7 +9,7 @@ import ProductCategory from "../containers/Products/components/ProductCategory";
 import AdminPanel from "../containers/Admin";
 
 const AppRoutes = () => (
-  <Router>
+  <Router basename="/ecommerce-website">
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
